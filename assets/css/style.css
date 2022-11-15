@@ -136,6 +136,7 @@ ul li{
     max-width: 438px;
     text-align: start;
     font-weight: 400;
+    color: #5c5c5c;
 }
 
 h5{
@@ -160,4 +161,105 @@ h5{
     align-items: center;
     flex-wrap: wrap;
     background: white;
+}
+
+/* Formação  */
+
+.formacao{
+    display: flex;
+    padding: 80px 0 0 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #141414;
+}
+.p-formacao{
+    max-width: 640px;
+    font-size: 24px;
+    color: #a3a3a3;
+    font-weight: 300;
+    margin-bottom: 130px;
+    width: 500px;
+}
+.formacao-2{
+    width: 295px;
+    position: relative;
+    right: 505px;
+
+}
+.formacao-2::before{
+    position: absolute;
+    content: url(/assets/img/detalhe.svg);
+    top: 194px;
+    right: 160px;
+    rotate: 44deg;
+}
+.box-formacao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 760px;
+    justify-content: space-between;
+    align-items: center;
+}
+.projeto-formacao{
+    background: black;
+    padding: 20px;
+    width: 236px;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+
+}
+.formacao-h2 {
+    font-size: 116px;
+    text-transform: uppercase;
+    display: flex;
+    line-height: 127px;
+    align-items: center;
+    max-width: 520px;
+    color: #bbbbbb;
+    position: relative;
+    right: 124px;
+}
+
+
+.h3-projeto{
+    font-size: 24px;
+    color:#939393;
+}
+.box-cursos-intensivos{
+    color: white;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    border: solid 1px gray;
+    font-size: 24px;
+    width: 760px;
+    align-items: center;
+    margin-top: 20px;
+    padding: 13px;
+}
+.p-habilidade-f{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+span{
+    color: #acacac;
+}
+.intensivo{
+    color: rgb(168, 167, 167);
+    margin-top: 30px;
+}
+.intensivo::before{
+    content: url(/assets/img/cursos.svg);
+    padding-right: 10px;
+}
+.idiomas{
+    color: rgb(168, 167, 167);
+    margin-top: 30px;
+}
+.idiomas::before{
+    content: url(/assets/img/idiomas.svg);
+    padding-right: 10px;
 }
