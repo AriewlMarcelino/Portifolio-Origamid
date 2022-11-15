@@ -5,7 +5,8 @@
 
 /* headaer menu*/
 .logo-menu{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 700;
 }
 .nav-menu{
     display: flex;
@@ -37,6 +38,7 @@ ul li{
     text-align: center;
     font: 24px;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 /* Imagem e Titulo da pagina */
@@ -55,7 +57,7 @@ ul li{
 }
 
 .conteiner-h1{
-    font-size: 4rem;
+    font-size: 7rem;
     position: relative;
 }
 
@@ -71,10 +73,10 @@ ul li{
 
 .descricao{
 
-    font-size: 18px;
     text-transform: capitalize;
     position: relative;
     left: 48px;
+    font-size: 2rem;
 
 }
 
@@ -86,6 +88,11 @@ ul li{
     padding: 80px 0 0 0;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.experiencia-2{
+    position: relative;
+    left: 261px;
 }
 
 .experiencia-h2 {
@@ -171,6 +178,7 @@ h5{
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #141414;
+    padding-bottom: 160px;
 }
 .p-formacao{
     max-width: 640px;
@@ -180,11 +188,10 @@ h5{
     margin-bottom: 130px;
     width: 500px;
 }
-.formacao-2{
+.formacao-2 {
     width: 295px;
     position: relative;
-    right: 505px;
-
+    right: 297px;
 }
 .formacao-2::before{
     position: absolute;
@@ -193,11 +200,11 @@ h5{
     right: 160px;
     rotate: 44deg;
 }
-.box-formacao{
+.box-formacao {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    width: 760px;
+    width: 948px;
     justify-content: space-between;
     align-items: center;
 }
@@ -234,7 +241,7 @@ h5{
     justify-content: space-between;
     border: solid 1px gray;
     font-size: 24px;
-    width: 760px;
+    width: 948px;
     align-items: center;
     margin-top: 20px;
     padding: 13px;
@@ -263,3 +270,52 @@ span{
     content: url(/assets/img/idiomas.svg);
     padding-right: 10px;
 }
+/* Footer */
+#footer{
+    height: 300px;
+    background-color: #000000;
+}
+
+.box-conteudo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 200px;
+    align-items: center;
+}
+
+.p-contato{
+    font-size: 25px;
+    max-width: 510px;
+    color:#c4c4c4;
+    position: relative;
+    right: 240px;
+}
+
+.contato-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 26px;
+    left: 452px;
+}
+
+.contato-1 a{
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+.direitos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
